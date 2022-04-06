@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Dosis:wght@200;300;400;500&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Ubuntu:wght@300;400;500&display=swap');
 
 /*
 	Stellar by HTML5 UP
@@ -135,16 +135,16 @@ body {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 17pt;
-		font-weight: 300;
+		font-family: "Dosis", "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 18pt;
+		font-weight: 400;
 		line-height: 1.65;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 16pt;
 			}
 
 		}
@@ -152,7 +152,7 @@ body {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -209,6 +209,7 @@ body {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
+	  font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 300;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
@@ -285,6 +286,7 @@ body {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
+		font-weight: 300;
 		margin: 0 0 2em 0;
 	}
 
@@ -336,7 +338,7 @@ body {
   .h7 {
     padding: 0 auto;
     text-transform: uppercase;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     border-bottom: solid 1px #777;
   }
   
