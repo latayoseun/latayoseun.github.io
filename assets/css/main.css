@@ -1,11 +1,5 @@
 @import url(fontawesome-all.min.css);
 
-/*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3039,7 +3033,7 @@ body {
 			.spotlight .content header.major p {
 			  margin: 0;
 			  padding: 0;
-			  text-align: justify;
+			  text-align: align-left;
 			}
 
 		.spotlight .image {
@@ -3171,10 +3165,12 @@ body {
 			}
 
 				#header.alt .logo img {
+				  width: 220px;
+				  max-width: 30%;
 					display: block;
 					margin: 0 auto;
-					max-width: 12rem;
 					/*
+					max-width: 12rem;
 					background-color: #ffffff;
 					border-radius: 100%;
 					*/
