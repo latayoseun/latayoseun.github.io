@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -123,7 +124,7 @@ body {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #BDB2E4;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
